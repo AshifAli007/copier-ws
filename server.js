@@ -13,7 +13,7 @@ wss.on('connection', ws => {
         });
     });
 
-    ws.send('Welcome to the WebSocket server');
+    // ws.send('Welcome to the WebSocket server');
 });
 
 console.log(`WebSocket server is running on ws://localhost:${port}`);
